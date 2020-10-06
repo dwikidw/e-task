@@ -1,0 +1,35 @@
+.search-bar {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0px 8px;
+  border-radius: 20px;
+  display: flex;
+  min-height: 2.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter-wrap {
+  display: flex;
+  flex-direction: row;
+  // background-color: #eaeaea;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.loading {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 4px !important;
+  min-height: 2.5rem !important;
+  padding: 8px !important;
+}
+
+.MuiOutlinedInput-input {
+  padding: 0px !important;
+}
